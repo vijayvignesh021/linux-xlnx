@@ -28,5 +28,8 @@ struct mtd_info *mtd_concat_create(
 
 void mtd_concat_destroy(struct mtd_info *mtd);
 
+int mtd_virt_concat_node_create(void);
+bool mtd_virt_concat_add(struct mtd_info *mtd);
+
 #endif
 
